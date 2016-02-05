@@ -23,6 +23,12 @@ body{
   color: rgb(27, 188 , 184);
   font-style: bold;
 }
+.subtitulo{
+  font-family: Bebas;
+  font-size: 30px;
+  color: rgb(27, 188 , 184);
+  font-style: bold;
+}
 .encabezado2{
   font-family: Bebas;
   font-size: 70px;
@@ -80,8 +86,14 @@ predd2{
   text-align: justify;
   color: white;
 }
+.sombra{
+  background: rgba(0, 0, 0, 0.4);
+  margin-top:2%;
+  margin-button:2%;
+}
 .uno50texto{
   font-family: Rodondo;
+  font-size: 20px;
   text-align: left;
   color: #E6E6E6;
 }
