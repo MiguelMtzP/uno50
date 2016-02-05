@@ -17,6 +17,18 @@ body{
 
 
 }
+.enConstruccion{
+  font-family: Bebas;
+  font-size: 100px;
+  color: rgb(27, 188 , 184);
+  font-style: bold;
+}
+.enConstruccion2{
+  font-family: Bebas;
+  font-size: 100px;
+  color: #A4A4A4;
+  font-style: bold;
+}
 .encabezado{
   font-family: Bebas;
   font-size: 130px;
