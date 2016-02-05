@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Rodondo;
+  src: url(Helvetica.otf);
+}
+@font-face {
+  font-family: Bebas;
+  src: url(BebasNeue.otf);
+}
+
+
+
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.rodo{
+  font-family: Bebas;
+  line-height: 46px;
+
+}
+.kinep{
+  font-family: Rodondo;
+}
+predd{
+  font-family: Rodondo;
+}
+predd2{
+  font-family: Bebas;
+
+}
+#footer{
+		position:fixed;
+		height: 40px;
+		display:block;
+    background-color: rgba(0, 0, 0, 1);
+
+
+
+		z-index:9;
+
+
+		padding: 20px 0 0 0;
+		bottom:0px;
+	}
+.bebs{
+  font-family: Bebas;
+}
+
+.kinn{
+  font-family: Rodondo;
+
+  color: rgb(0, 0, 0);
+}
+.kinn3{
+  font-family: Rodondo;
+  text-align: justify;
+  color: white;
+}
+
+.kinn2{
+  font-family: Rodondo;
+  font-size: 20px;
+  color: white;
+}
+.home{
+  font-size:50px;
+  line-height: 45px;
+  text-align: justify;
+}
+.titulo{
+  font-size:45px;
+   margin-top:6%;
+   line-height: 40px;
+}
+.beb{
+  font-family: Bebas;
+}
+.rosa{
+  background-color:pink;
+}
+.video{
+  margin-top: 0%;
+}
+.prensa{
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.prensa_titulo{
+  font-family: Bebas;
+  font-size: 25px;
+    }
+.titulo_con{
+  font-size: 45px;
+  font-family: Bebas;
+}
+h2{
+  font-family: Bebas;
+}
+.espe{
+  background-color: rgb(17, 241, 241);
+  }
+
+.Trapezio { border-bottom: 75px solid pink; border-right: 30px solid transparent; height: 0; width: 350px; }
+.Trapezio2 { border-bottom: 75px solid rgb(136, 255, 62); border-right: 30px solid transparent; height: 0; width: 350px; }
+
+.Trapezio4 { border-bottom: 175px solid rgb(184, 255, 242); border-right: 70px solid transparent; height: 0; width: 500px; z-index: -1;}
+.Trapezio3 { border-bottom: 200px solid pink; border-right: 50px solid transparent; z-index: -1;}
+@media (max-width: 450px){
+  .titulo{
+    font-size:25px;
+     margin-top:5%;
+  }
+  .prensa{
+      background-color: white;
+      box-shadow: 10px 10px 5px #888888;
+      font-size: 25px;
+
+  }
+  .Trapezio4 { border-bottom: 155px solid rgb(184, 255, 242); border-right: 50px solid transparent; height: 0; width: 300px; z-index: -1;}
+  .home{
+    font-size:25px;
+    text-align: justify;
+  }
+  .prensa_titulo{
+    font-size: 25px;
+    line-height:22px;
+  }
+}
