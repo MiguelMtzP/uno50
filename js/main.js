@@ -9,11 +9,11 @@ $(document).ready(function() {
       });
 
       var controller = new ScrollMagic.Controller();
-      var home = document.getElementById("home");
+      var home = document.getElementById("flecha");
 
       var somosA = new  TimelineMax()
                   .to(home, 0.1, {delay:0.1,scale:0, opacity:0})
-                  .to(home, 0.7, {delay:0.9, scale:1, opacity:1, repeat:14})
+                  .to(home, 0.8, {delay:0.9, scale:1, opacity:1, repeat:10})
                   .to(home, 0.3, {delay:1.2, scale:0, opacity:0});
 
 
