@@ -10,13 +10,33 @@
 
 
 body{
-  background-color: rgb(249,248,247);
+  background-image: url("../img/stack.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
-}
 
+}
+.encabezado{
+  font-family: Bebas;
+  font-size: 130px;
+  color: rgb(27, 188 , 184);
+  font-style: bold;
+}
+.encabezado2{
+  font-family: Bebas;
+  font-size: 70px;
+  color: rgb(249,248,247);
+}
+.fondoSeccion1{
+  background-color: rgb(249,248,247);
+}
+.fondoSeccion2{
+  background-image: url("../img/stack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .rodo{
   font-family: Bebas;
   line-height: 46px;
@@ -63,7 +83,7 @@ predd2{
 .uno50texto{
   font-family: Rodondo;
   text-align: left;
-  color: #F2F5A9;
+  color: #E6E6E6;
 }
 
 .kinn2{
