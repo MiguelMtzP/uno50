@@ -47,7 +47,7 @@ body{
   color: rgb(249,248,247);
 }
 .fondoSeccion1{
-  background-color: rgb(249,248,247);
+  background-color: white;
 }
 .fondoSeccion2{
   background-image: url("../img/stack.jpg");
