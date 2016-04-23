@@ -31,19 +31,19 @@ body{
 }
 .encabezado{
   font-family: Bebas;
-  font-size: 130px;
+  font-size: 9vh;
   color: rgb(27, 188 , 184);
   font-style: bold;
 }
 .subtitulo{
   font-family: Bebas;
-  font-size: 30px;
+  font-size: 2.5vh;
   color: rgb(27, 188 , 184);
   font-style: bold;
 }
 .encabezado2{
   font-family: Bebas;
-  font-size: 70px;
+  font-size: 6.6vh;
   color: rgb(249,248,247);
 }
 .fondoSeccion1{
@@ -152,30 +152,9 @@ h2{
 .espe{
   background-color: rgb(17, 241, 241);
   }
-
-.Trapezio { border-bottom: 75px solid pink; border-right: 30px solid transparent; height: 0; width: 350px; }
-.Trapezio2 { border-bottom: 75px solid rgb(136, 255, 62); border-right: 30px solid transparent; height: 0; width: 350px; }
-
-.Trapezio4 { border-bottom: 175px solid rgb(184, 255, 242); border-right: 70px solid transparent; height: 0; width: 500px; z-index: -1;}
-.Trapezio3 { border-bottom: 200px solid pink; border-right: 50px solid transparent; z-index: -1;}
 @media (max-width: 450px){
   .titulo{
     font-size:25px;
      margin-top:5%;
-  }
-  .prensa{
-      background-color: white;
-      box-shadow: 10px 10px 5px #888888;
-      font-size: 25px;
-
-  }
-  .Trapezio4 { border-bottom: 155px solid rgb(184, 255, 242); border-right: 50px solid transparent; height: 0; width: 300px; z-index: -1;}
-  .home{
-    font-size:25px;
-    text-align: justify;
-  }
-  .prensa_titulo{
-    font-size: 25px;
-    line-height:22px;
   }
 }
