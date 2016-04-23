@@ -23,7 +23,6 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/buttons.css">
         <link rel="stylesheet" href="bower_components/fullpage.js/dist/jquery.fullpage.css">
-
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <!--    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -58,29 +57,31 @@
     </head>
     <body>
       <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>
+  (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Example row of columns -->
 
   <div id="fullpage">
-    <div id="sec1"class="section fondoSeccion1 ">
-      <img class="col-md-6 col-md-offset-3" src="img/logouno50.jpg" alt="logouno50.png" />
+    <div id="sec1" class="section fondoSeccion1 ">
+      <img class="col-md-6 col-md-offset-3 img-responsive col-sm-12" src="img/logouno50.jpg" alt="logouno50.png" />
       <div class="row">
-        <div class="col-md-8 col-md-offset-2" style="text-align:center;">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding-top:10%; text-align:center;">
           <span class="enConstruccion">sitio </span><span class="enConstruccion2">en construcción</span>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <img id="flecha" class="col-md-2 col-md-offset-5" src="img/DOWN.png" alt="abajo" />
+        <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+          <img id="flecha" class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4" src="img/DOWN.png" alt="abajo" />
         </div>
       </div>
     </div>
